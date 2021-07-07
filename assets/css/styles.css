@@ -209,9 +209,8 @@ h5, h6, p, div {
 }
 
 .about_us {
-	display: flex;
-	justify-content: center;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
     background: #e5e5e5;
     margin-right: 65px;
     margin-left: 65px;
@@ -219,14 +218,17 @@ h5, h6, p, div {
 }
 
 .about_us_img {
-	width: 580px;
-	height: 315px;
+	display: inline-block;
+	text-align: center;
+	width: 870px;
+	height: 472px;
 	margin: 10px;
 	border-radius: 7px;
 	border: 3px solid #03a2ff;
 }
 
 .about_us_text {
+	display: block;
 	margin-right: 65px;
 	padding: 10px;
 	font-size: 17px;
@@ -253,6 +255,7 @@ h5, h6, p, div {
 }
 
 .adres {
+	padding: 30px;
 	margin-top: 25px;
 	border-top: 1px solid #03a2ff;
 	font-size: 16px;
@@ -377,8 +380,8 @@ a.close__popup:hover {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	top: 14px;
-	left: 2px;
+	top: 16px;
+	left: 5px;
 	background: #03a2ff;
 	text-decoration: none;
 	color: #fff;
@@ -418,6 +421,13 @@ a.close__popup:hover {
     iframe {
     width: 780px;
     height: 500px;
+    }
+
+    .about_us_img {
+    text-align: center;
+	width: 500px;
+	height: 260px;
+	margin: 5px;
     }
 }
 
